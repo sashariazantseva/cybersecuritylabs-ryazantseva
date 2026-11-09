@@ -27,9 +27,9 @@ TEXT_UA = ("Таємниця листування — право кожної л
            "пише студентка ХНЕУ.")
 TEXT_EN = "Secret letters keep our friendship safe from strangers."
 
-ACCENT = "#B23A6B"      # основний колір інтерфейсу
-SOFT = "#FBEFF4"        # світле тло
-COLORS = {"Відкритий текст": "#7A7A7A", "Цезар": "#B23A6B",
+ACCENT = "#2E4057"      # основний колір інтерфейсу
+SOFT = "#F4F1EA"        # світле тло
+COLORS = {"Відкритий текст": "#7A7A7A", "Цезар": "#1F7A7A",
           "Віженер": "#2F6DB5", "Афінний": "#E09A2B"}
 RESULTS = Path(__file__).parent / "results"
 
@@ -68,7 +68,7 @@ class CipherApp(tk.Tk):
                     font=("Segoe UI", 16, "bold"))
         s.configure("Accent.TButton", background=ACCENT, foreground="white",
                     font=("Segoe UI", 10, "bold"), padding=(12, 5))
-        s.map("Accent.TButton", background=[("active", "#8E2C55")])
+        s.map("Accent.TButton", background=[("active", "#1E2B3B")])
         s.configure("Treeview", rowheight=24, font=("Consolas", 10))
         s.configure("Treeview.Heading", font=("Segoe UI", 10, "bold"))
 
@@ -141,7 +141,7 @@ class CipherApp(tk.Tk):
         self.brute.column("Зсув", width=60, anchor="center")
         self.brute.column("χ²", width=130, anchor="center")
         self.brute.column("Кандидат", width=780)
-        self.brute.tag_configure("best", background="#FFE3EE")
+        self.brute.tag_configure("best", background="#EDE4D3")
         sb = ttk.Scrollbar(f, command=self.brute.yview)
         self.brute.configure(yscrollcommand=sb.set)
         self.brute.pack(side="left", fill="both", expand=True)
