@@ -1,0 +1,4 @@
+matplotlib>=3.5
+numpy
+pillow
+pillow-heif   # тільки щоб відкривати HEIC з iPhone

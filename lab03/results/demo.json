@@ -1,0 +1,209 @@
+{
+  "hide": {
+    "bits": 624,
+    "changed_values": 303,
+    "pixels_used": 208,
+    "capacity_bytes": 777592,
+    "message": "Рязанцева Олександра Сергіївна, 16.05.2006",
+    "extracted": "Рязанцева Олександра Сергіївна, 16.05.2006"
+  },
+  "encrypted": {
+    "hidden": "Єюоабпїґа Дклкдцуєрр Рлррґоґнр, 16.05.2006",
+    "decrypted": "Рязанцева Олександра Сергіївна, 16.05.2006"
+  },
+  "compare": {
+    "size_original_bytes": 4791020,
+    "size_stego_bytes": 4791021,
+    "width": 1080,
+    "height": 1920,
+    "changed_pixels": 185,
+    "changed_percent": 0.008921682098765432,
+    "changed_R": 100,
+    "changed_G": 97,
+    "changed_B": 106,
+    "max_difference": 1,
+    "psnr_db": 91.25483971275767
+  },
+  "jpeg_test": "повідомлення знищено: Маркер початку не знайдено: у файлі немає повідомлення",
+  "chi_square": {
+    "cover": [
+      {
+        "percent": 10,
+        "chi2": 3332.902905706579,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 20,
+        "chi2": 4042.8314832075557,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 30,
+        "chi2": 6734.385456148881,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 40,
+        "chi2": 9046.848499941474,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 50,
+        "chi2": 10561.060197103101,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 60,
+        "chi2": 11449.660537727254,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 70,
+        "chi2": 12057.323119513982,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 80,
+        "chi2": 12459.534900971907,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 90,
+        "chi2": 13096.030325238678,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 100,
+        "chi2": 13964.161190748553,
+        "p_hidden": 0.0
+      }
+    ],
+    "stego": [
+      {
+        "percent": 10,
+        "chi2": 3331.4233488640375,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 20,
+        "chi2": 4041.776265837646,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 30,
+        "chi2": 6733.298099597521,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 40,
+        "chi2": 9045.59536296406,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 50,
+        "chi2": 10559.769925863018,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 60,
+        "chi2": 11448.458750176362,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 70,
+        "chi2": 12056.076116159797,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 80,
+        "chi2": 12458.122129416846,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 90,
+        "chi2": 13094.614576745833,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 100,
+        "chi2": 13962.734561126841,
+        "p_hidden": 0.0
+      }
+    ],
+    "test_random_50": [
+      {
+        "percent": 10,
+        "chi2": 63.09665688821513,
+        "p_hidden": 1.0
+      },
+      {
+        "percent": 20,
+        "chi2": 66.41430312700028,
+        "p_hidden": 1.0
+      },
+      {
+        "percent": 30,
+        "chi2": 74.40149735254833,
+        "p_hidden": 0.9999
+      },
+      {
+        "percent": 40,
+        "chi2": 82.44835306208978,
+        "p_hidden": 0.9992
+      },
+      {
+        "percent": 50,
+        "chi2": 84.52036070533794,
+        "p_hidden": 0.9986
+      },
+      {
+        "percent": 60,
+        "chi2": 195.81389436743513,
+        "p_hidden": 0.0001
+      },
+      {
+        "percent": 70,
+        "chi2": 418.9210138384652,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 80,
+        "chi2": 758.2571651749035,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 90,
+        "chi2": 1059.803272050367,
+        "p_hidden": 0.0
+      },
+      {
+        "percent": 100,
+        "chi2": 1453.958949453899,
+        "p_hidden": 0.0
+      }
+    ]
+  },
+  "exif": {
+    "before": {
+      "Make": "Apple",
+      "Model": "iPhone 17 Pro",
+      "Software": "27.2",
+      "DateTimeOriginal": "2026:11:04 15:05:21",
+      "OffsetTimeOriginal": "+01:00",
+      "LensModel": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "ExposureTime": "1/1585 c",
+      "FNumber": "f/1.78",
+      "ISOSpeedRatings": "80",
+      "ExifImageWidth": "5712",
+      "ExifImageHeight": "4284",
+      "GPS": "є (координати приховано у звіті)",
+      "GPS точність, м": "3.8",
+      "Напрямок камери, °": "145",
+      "Висота, м": "39",
+      "Кількість тегів EXIF": "61"
+    },
+    "after": {
+      "Кількість тегів EXIF": "0"
+    }
+  }
+}
